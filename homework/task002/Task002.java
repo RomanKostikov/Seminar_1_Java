@@ -23,12 +23,10 @@ public class Task002 {
             int num2 = scanner.nextInt();
             if (num1 > 0 && num2 < 0) {
                 sum += num1;
-
             }
             num1 = num2;
         }
         scanner.close();
         return sum;
-
     }
 }

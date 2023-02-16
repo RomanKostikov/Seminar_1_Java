@@ -22,7 +22,6 @@ public class Task001 {
                 result.append(words[i]);
             }
         }
-
         return result.toString();
     }
 }
